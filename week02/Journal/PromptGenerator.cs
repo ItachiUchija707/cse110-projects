@@ -6,15 +6,15 @@ public class PromptGenerator
     "How did I see the hand of the Lord in my life today?","What was the strongest emotion I felt today?",
     "If I had one thing I could do over today, what would it be?", "What am I grateful for today?", 
     "What did I learn today?", "What did I do today that I am proud of?", "What was the most challenging thing I faced today?"};
-    Random randomGenerator = new Random();
+    Random _randomGenerator = new Random();
     
     public PromptGenerator()
     {
         
     }
-    public string getRandomPrompt()
+    public string GetRandomPrompt()
     {
-        int index = randomGenerator.Next(prompts.Count);
+        int index = _randomGenerator.Next(prompts.Count);
         string promptText = (prompts[index]);
         return promptText;
     }

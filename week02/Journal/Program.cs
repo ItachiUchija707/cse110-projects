@@ -22,7 +22,7 @@ class Program
             if (userSelection == "1")
             {   
                 List<string> responses = new List<string>();
-                string prompt = pg.getRandomPrompt();
+                string prompt = pg.GetRandomPrompt();
                 Console.WriteLine(prompt);
                 string promptResponse = Console.ReadLine();
                 responses.Add(promptResponse);
