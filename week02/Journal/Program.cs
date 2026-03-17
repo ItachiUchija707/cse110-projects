@@ -1,5 +1,8 @@
 using System;
 using System.Collections.Generic;
+
+// I showed creativity by saving other information to the journal such as a mood prompt and grateful question
+
 class Program
 {
     static void Main(string[] args)
