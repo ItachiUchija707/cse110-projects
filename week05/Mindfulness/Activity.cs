@@ -37,7 +37,7 @@ public class Activity
     {   
         List<string> spinner = ["|","/","—","\\", "|", "/", "—", "\\"];
         DateTime startTime = DateTime.Now;
-        DateTime endTime = startTime.AddSeconds(seconds);
+        DateTime endTime = startTime.AddSeconds(3);
         int i = 0;
         while (DateTime.Now <= endTime)
         {   

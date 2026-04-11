@@ -1,0 +1,3 @@
+3000
+Sentinel,Paladin,Squadron Leader,Centurion,Dominus,Virtuoso,Celestial
+ChecklistGoal:|programs|write programs|100|15|15|1500
