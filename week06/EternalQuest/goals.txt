@@ -1,3 +1,5 @@
-3000
-Sentinel,Paladin,Squadron Leader,Centurion,Dominus,Virtuoso,Celestial
+3050
+Sentinel,Paladin,Squadron Leader,Centurion,Dominus,Virtuoso,Celestial,Seraph
 ChecklistGoal:|programs|write programs|100|15|15|1500
+SimpleGoal:|have lunch|eat foot|50|True
+SimpleGoal:|sleep|sleep 8 hours|50|False
